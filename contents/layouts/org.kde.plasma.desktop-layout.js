@@ -14,29 +14,54 @@ var layout = {
                     "formfactor": "0",
                     "immutability": "1",
                     "lastScreen": "0",
-                    "wallpaperplugin": "org.kde.color"
+                    "wallpaperplugin": "com.github.zren.inactiveblur"
                 },
                 "/ConfigDialog": {
-                    "DialogHeight": "510",
-                    "DialogWidth": "680"
+                    "DialogHeight": "917",
+                    "DialogWidth": "1904"
                 },
                 "/Configuration": {
                     "PreloadWeight": "42"
                 },
                 "/General": {
-                    "ToolBoxButtonState": "topcenter",
-                    "ToolBoxButtonX": "408",
+                    "ToolBoxButtonState": "top",
+                    "ToolBoxButtonX": "532",
                     "ToolBoxButtonY": "42"
                 },
+                "/Wallpaper/com.github.zren.inactiveblur/General": {
+                    "Image": "file:///usr/share/wallpapers/Cluster/contents/images/3840x2160.png"
+                },
                 "/Wallpaper/org.kde.color/General": {
-                    "Color": "67,67,67"
+                    "Color": "130,16,16"
                 },
                 "/Wallpaper/org.kde.image/General": {
-                    "Image": "",
+                    "Image": "file:///usr/share/wallpapers/Altai/contents/screenshot.png",
                     "SlidePaths": "/usr/share/wallpapers"
+                },
+                "/Wallpaper/org.kde.potd/General": {
+                    "FillMode": "2",
+                    "Provider": "unsplash"
                 }
             },
-            "wallpaperPlugin": "org.kde.color"
+            "wallpaperPlugin": "com.github.zren.inactiveblur"
+        },
+        {
+            "applets": [
+            ],
+            "config": {
+                "/": {
+                    "ItemGeometries-1920x1080": "",
+                    "ItemGeometriesHorizontal": "",
+                    "formfactor": "0",
+                    "immutability": "1",
+                    "lastScreen": "1",
+                    "wallpaperplugin": "org.kde.image"
+                },
+                "/Wallpaper/org.kde.image/General": {
+                    "Image": "file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg"
+                }
+            },
+            "wallpaperPlugin": "org.kde.image"
         }
     ],
     "panels": [
@@ -49,6 +74,7 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
+                            "PreloadWeight": "85",
                             "immutability": "1"
                         },
                         "/Configuration/Appearance": {
@@ -63,7 +89,6 @@ var layout = {
                             "use24hFormat": "2"
                         },
                         "/Configuration/Configuration/Configuration": {
-                            "PreloadWeight": "42",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Appearance": {
@@ -71,6 +96,7 @@ var layout = {
                             "use24hFormat": "2"
                         },
                         "/Configuration/Configuration/Configuration/Configuration": {
+                            "PreloadWeight": "42",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Appearance": {
@@ -78,7 +104,6 @@ var layout = {
                             "use24hFormat": "2"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration": {
-                            "PreloadWeight": "55",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration/Appearance": {
@@ -86,13 +111,21 @@ var layout = {
                             "use24hFormat": "2"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration": {
-                            "PreloadWeight": "95"
+                            "PreloadWeight": "55",
+                            "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/Appearance": {
                             "showDate": "false",
                             "use24hFormat": "2"
                         },
-                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration": {
+                            "PreloadWeight": "95"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/Appearance": {
+                            "showDate": "false",
+                            "use24hFormat": "2"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
                             "DialogHeight": "540",
                             "DialogWidth": "720"
                         }
@@ -105,19 +138,23 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
+                            "PreloadWeight": "70",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration": {
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration": {
-                            "PreloadWeight": "42",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration": {
+                            "PreloadWeight": "42",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration": {
                             "PreloadWeight": "55"
                         }
                     },
@@ -135,13 +172,16 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration": {
-                            "PreloadWeight": "42",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration": {
+                            "PreloadWeight": "42",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration": {
                             "immutability": "1"
                         }
                     },
@@ -159,16 +199,19 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration": {
-                            "PreloadWeight": "42",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration": {
+                            "PreloadWeight": "42",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration": {
                             "immutability": "1"
                         },
-                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/ConfigDialog": {
                             "DialogHeight": "540",
                             "DialogWidth": "720"
                         }
@@ -215,6 +258,12 @@ var layout = {
                         "/Configuration/Configuration/Configuration": {
                             "immutability": "1"
                         },
+                        "/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/General": {
+                            "length": "32"
+                        },
                         "/Configuration/Configuration/Configuration/Configuration/General": {
                             "length": "32"
                         },
@@ -236,13 +285,7 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration/Configuration": {
-                            "immutability": "1"
+                            "PreloadWeight": "100"
                         }
                     },
                     "plugin": "org.kde.plasma.analogclock"
@@ -260,6 +303,12 @@ var layout = {
                         },
                         "/Configuration/Configuration/Configuration": {
                             "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/General": {
+                            "length": "32"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/General": {
                             "length": "32"
@@ -285,8 +334,8 @@ var layout = {
                     "wallpaperplugin": "org.kde.image"
                 },
                 "/ConfigDialog": {
-                    "DialogHeight": "82",
-                    "DialogWidth": "1280"
+                    "DialogHeight": "91",
+                    "DialogWidth": "1920"
                 }
             },
             "height": 2,
@@ -316,10 +365,17 @@ var layout = {
                         "/Configuration/Configuration/Configuration/Configuration": {
                             "immutability": "1"
                         },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/General": {
+                            "favoritesPortedToKAstats": "true"
+                        },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration/General": {
                             "favoritesPortedToKAstats": "true"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/General": {
+                            "favoriteSystemActions": "logout",
                             "favoritesPortedToKAstats": "true"
                         },
                         "/Configuration/Configuration/Configuration/General": {
@@ -343,6 +399,7 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
+                            "PreloadWeight": "55",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration": {
@@ -352,6 +409,9 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration": {
                             "immutability": "1"
                         }
                     },
@@ -363,6 +423,18 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
+                            "PreloadWeight": "55"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.volume"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "immutability": "1"
+                        },
+                        "/Configuration": {
+                            "PreloadWeight": "55",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration": {
@@ -372,6 +444,9 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration": {
                             "immutability": "1"
                         }
                     },
@@ -386,15 +461,15 @@ var layout = {
                     "wallpaperplugin": "org.kde.image"
                 },
                 "/ConfigDialog": {
-                    "DialogHeight": "84",
-                    "DialogWidth": "1680"
+                    "DialogHeight": "91",
+                    "DialogWidth": "1920"
                 }
             },
             "height": 2.05,
             "hiding": "normal",
             "location": "bottom",
-            "maximumLength": 7.5,
-            "minimumLength": 7.5,
+            "maximumLength": 9.2,
+            "minimumLength": 9.2,
             "offset": 0
         },
         {
@@ -406,6 +481,7 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
+                            "PreloadWeight": "75",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration": {
@@ -415,6 +491,9 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration": {
                             "immutability": "1"
                         }
                     },
@@ -436,6 +515,9 @@ var layout = {
                         },
                         "/Configuration/Configuration/Configuration/Configuration": {
                             "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
                         }
                     },
                     "plugin": "org.kde.plasma.showdesktop"
@@ -450,6 +532,7 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration/Configuration": {
+                            "PreloadWeight": "60",
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration": {
@@ -459,6 +542,9 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration": {
                             "PreloadWeight": "55"
                         }
                     },
@@ -473,8 +559,8 @@ var layout = {
                     "wallpaperplugin": "org.kde.image"
                 },
                 "/ConfigDialog": {
-                    "DialogHeight": "84",
-                    "DialogWidth": "1680"
+                    "DialogHeight": "91",
+                    "DialogWidth": "1920"
                 }
             },
             "height": 2,
